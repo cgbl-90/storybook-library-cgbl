@@ -1,0 +1,53 @@
+.links {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 4700;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+    color: rgb(239, 108, 14);
+    margin: 0px;
+    padding: 0px;
+    transition: .5s;
+}
+
+.links:hover,
+.links:focus {
+    filter: brightness(85%);
+}
+
+.link--simple {
+    color: blue;
+}
+
+.link--underline:hover,
+.link--underline:focus {
+    text-decoration: underline;
+}
+
+.link--overline:hover,
+.link--overline:focus {
+    text-decoration: overline;
+}
+
+.link--arrow::after {
+    content: " > ";
+}
+
+.link--arrow:hover::after,
+.link--arrow:focus::after {
+    content: " >> ";
+}
+
+
+/* Link sizes */
+.link--small {
+    font-size: 12px;
+}
+
+.link--medium {
+    font-size: 14px;
+}
+
+.link--large {
+    font-size: 16px;
+}
