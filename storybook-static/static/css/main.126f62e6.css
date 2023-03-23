@@ -1,0 +1,221 @@
+.button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  color: white;
+  transition: .5s;
+}
+
+.button:focus,
+.button:hover {
+  outline: rgba(0, 0, 0, 0.15) solid 2px;
+}
+
+/* Button types */
+.button--primary {
+  background-color: #1ea7fd;
+}
+
+.button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.button--success {
+  background-color: #167347;
+}
+
+.button--danger {
+  background-color: #ba0404;
+}
+
+.button--warning {
+  color: #333;
+  background-color: #edd51e;
+}
+
+.button--info {
+  color: #333;
+  background-color: #1ae3f6;
+}
+
+.button--light {
+  color: #333;
+  background-color: #f6f6f6;
+}
+
+
+
+/* Button sizes */
+.button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+
+.button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+
+.button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+.wrapper {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  display: inline-block;
+  height: 40px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+button {
+  margin: 5px;
+}
+.links {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1;
+    color: rgb(239, 108, 14);
+    letter-spacing: .2rem;
+    margin: 0px;
+    padding: 0px;
+    transition: .5s;
+}
+
+.links:hover,
+.links:focus {
+    -webkit-filter: brightness(85%);
+            filter: brightness(85%);
+}
+
+.link--simple {
+    color: blue;
+}
+
+.link--underline:hover,
+.link--underline:focus {
+    text-decoration: underline;
+}
+
+.link--overline:hover,
+.link--overline:focus {
+    text-decoration: overline;
+}
+
+.link--arrow::after {
+    content: " > ";
+}
+
+.link--arrow:hover::after,
+.link--arrow:focus::after {
+    content: " >> ";
+}
+
+
+/* Link sizes */
+.link--small {
+    font-size: 12px;
+}
+
+.link--medium {
+    font-size: 14px;
+}
+
+.link--large {
+    font-size: 16px;
+}
+section {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 48px 20px;
+  margin: 0 auto;
+  max-width: 600px;
+  color: #333;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  margin: 0 0 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  text-decoration: none;
+  color: #1ea7fd;
+}
+
+ul {
+  padding-left: 30px;
+  margin: 1em 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.tip {
+  display: inline-block;
+  border-radius: 1em;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: 700;
+  background: #e7fdd8;
+  color: #66bf3c;
+  padding: 4px 12px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.tip-wrapper {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tip-wrapper svg {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin-right: 4px;
+  vertical-align: top;
+  margin-top: 3px;
+}
+
+.tip-wrapper svg path {
+  fill: #1ea7fd;
+}
+
+
+/*# sourceMappingURL=main.126f62e6.css.map*/

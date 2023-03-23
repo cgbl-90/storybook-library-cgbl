@@ -1,10 +1,11 @@
 .links {
     font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 4700;
+    font-weight: 700;
     cursor: pointer;
     text-decoration: none;
     line-height: 1;
-    color: rgb(239, 108, 14);
+    color: rgb(174, 126, 91);
+    letter-spacing: .2rem;
     margin: 0px;
     padding: 0px;
     transition: .5s;
@@ -16,7 +17,7 @@
 }
 
 .link--simple {
-    color: blue;
+    color: rgb(255, 183, 0);
 }
 
 .link--underline:hover,
